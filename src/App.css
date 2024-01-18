@@ -1,0 +1,222 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header {
+  background: rgb(108, 166, 253);
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.h1 {
+  color: white;
+  text-align: left;
+}
+
+.nav {
+  padding: 25px;
+  position: fixed;
+  top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: white; 
+  z-index: 1000; 
+}
+.nav1{
+  display: flex;
+  align-items: center;
+}
+
+.nav1 img{
+  max-width: 32px;
+  height: auto;
+  text-align: left;
+  margin-left: -7px;
+  margin-right: 10px;
+}
+.nav2{
+  color: rgb(5, 103, 250);
+  font-size: 28px;
+  font-weight: bold;
+}
+.nav_menu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  justify-content: space-between;
+}
+
+.menu1,
+.menu2,
+.menu3,
+.menu4,
+.menu5 {
+  margin-right: 50px;
+  color: rgb(5, 103, 250);
+  font-size: 18px;
+}
+
+
+.menu1,
+.menu2,
+.menu3{
+  opacity: 0.3;
+}
+
+.body {
+  padding: 20px; 
+}
+
+.container {
+  background: #fff; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  margin-top: 120px;
+  padding-bottom: 200px; /*여백*/
+}
+
+.ConsentST{
+  font-size: 50px;
+  color: rgb(5, 103, 250);
+}
+
+
+.announcement ul {
+  list-style-type: disc;
+  list-style-position: inside; 
+  padding: 0;
+  display: flex; 
+  flex-direction: column; 
+}
+
+.announcement li {
+  margin-bottom: 20px;
+}
+
+.announcement {
+  margin-left: 600px;
+  text-align: left; 
+}
+
+span{
+  font-weight: bold;
+}
+
+.confirm-button,.confirm-button2,.confirm-button3,.confirm-button4{
+  background-color: rgb(5, 103, 250);
+  opacity: 0.7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 200px;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+.confirm-button:hover,.confirm-button2:hover,.confirm-button3:hover,.confirm-button4:hover {
+  background-color: rgb(0, 80, 200); 
+  opacity: 1;
+}
+
+.confirm-button3{
+  transform: translateX(-20px);
+}
+
+.ConsentForm2{
+  margin-left: 500px;
+  text-align: left; 
+  padding: 0;
+}
+
+.ConsentForm3{
+  margin-left: 600px;
+  margin-top: 50px;
+  text-align: left; 
+  padding: 0;
+}
+
+.ConsentForm4{
+  margin-left: 500px;
+  margin-top: 50px;
+  text-align: left; 
+  padding: 0;
+}
+
+.consentAll{
+  transform:translateX(-22px);
+}
+.c_ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.c_li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+  color: red; /* 마커(점)의 색상을 빨간색으로 지정 */
+}
+
+#allConsentCheckbox{
+  margin-right: 5px;
+}
+
+.c6_text{
+  color: black;
+}
+
+.consentLast,.consentCP,.consentCP2{
+  color: rgb(5, 103, 250);
+}
+
+
+.consentCP{
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.consentCP2{
+  margin-left: 60px;
+}
